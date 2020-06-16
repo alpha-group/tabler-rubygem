@@ -23,15 +23,15 @@ body {
 	}
 }
 
-body *::-webkit-scrollbar {
-	width: 6px;
-	height: 6px;
-	transition: .3s background;
-}
-
-body *::-webkit-scrollbar-thumb {
-	background: $gray-400;
-}
-body *:hover::-webkit-scrollbar-thumb {
-	background: $gray-500;
-}
+// body *::-webkit-scrollbar {
+// 	width: 6px;
+// 	height: 6px;
+// 	transition: .3s background;
+// }
+//
+// body *::-webkit-scrollbar-thumb {
+// 	background: $gray-400;
+// }
+// body *:hover::-webkit-scrollbar-thumb {
+// 	background: $gray-500;
+// }
