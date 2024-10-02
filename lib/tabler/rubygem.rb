@@ -50,7 +50,7 @@ module Tabler
       private
 
       def configure_sass
-        require 'sass'
+        require 'sass-embedded'
 
         ::Sass.load_paths << stylesheets_path
       end
