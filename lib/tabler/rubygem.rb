@@ -14,7 +14,7 @@ module Tabler
           register_sprockets
         end
 
-        configure_sass
+        # configure_sass
       end
 
       # Paths
@@ -49,11 +49,11 @@ module Tabler
 
       private
 
-      def configure_sass
-        require 'sass-embedded'
+      # def configure_sass
+      #   require 'sass'
 
-        ::Sass.load_paths << stylesheets_path
-      end
+      #   ::Sass.load_paths << stylesheets_path
+      # end
 
       def register_rails_engine
         require 'tabler/rubygem/engine'
